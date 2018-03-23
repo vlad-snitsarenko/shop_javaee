@@ -1,0 +1,101 @@
+<div class="modal fade" id="change-product" tabindex="-1" role="dialog" aria-labelledby="authorization"
+     style=" margin: 0px; padding: 0px;">
+    <div class="modal-dialog" role="document" style="padding: 0px;margin: auto; margin-top:25px;">
+        <div class="modal-content" style="width: 750px;padding: 0xp;">
+            <div class="modal-header">
+                <ul class="nav nav-tabs" style="margin-top:0;" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#logIn" aria-controls="logIn" role="tab" data-toggle="tab">Edit product</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-body">
+                <div role="tabpanel" class="tab-pane" id="changeProduct">
+                    <form class="form-horizontal" id="form-changeProduct">
+                        <div class="form-group">
+                            <label for="title-change" class="col-sm-3 control-label">Title</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="title-change" placeholder="">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block" "></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="cat-list-change" class="col-sm-3 control-label">Choose category</label>
+                            <div class="col-sm-4">
+                                <select class="form-control" id="cat-list-change">
+                                    <option>Phones</option>
+                                    <option>Laptops</option>
+                                    <option>Tablets</option>
+                                    <option>eReaders</option>
+                                </select>
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="descr-change" class="col-sm-3 control-label">Description</label>
+                            <div class="col-sm-8">
+                                <textarea name="text" id="descr-change" cols="50" rows="6"></textarea>
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="image-change" class="col-sm-3 control-label">Image</label>
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control" id="image-old">
+                                <input type="file" class="form-control" id="image-change">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity-change" class="col-sm-3 control-label">Quantity</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="quantity-change" placeholder="">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="p_id-change" class="col-sm-3 control-label">Price_id</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="p_id-change" placeholder="">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="brand-change" class="col-sm-3 control-label">Brand</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="brand-change" placeholder="">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="os-change" class="col-sm-3 control-label">OS</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="os-change" placeholder="">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="screen-change" class="col-sm-3 control-label">Screen(inch)</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="screen-change" placeholder="4.5">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="storage-change" class="col-sm-3 control-label">Storage(GB)</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="storage-change" placeholder="45">
+                            </div>
+                            <span class="col-sm-offset-3 col-sm-10 help-block"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-7 col-sm-3 text-right">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

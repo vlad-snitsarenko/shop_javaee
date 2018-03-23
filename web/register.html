@@ -1,0 +1,79 @@
+<div class="modal fade" id="authorization" tabindex="-1" role="dialog" aria-labelledby="authorization">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <ul class="nav nav-tabs" style="margin-top:0;" role="tablist">
+                    <li role="presentation" class="active"><a href="#logIn" aria-controls="logIn" role="tab"
+                                                              data-toggle="tab">Log in</a></li>
+                    <li role="presentation"><a href="#registration" aria-controls="registration" role="tab"
+                                               data-toggle="tab">Registration</a></li>
+                </ul>
+            </div>
+            <div class="modal-body">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="logIn">
+                        <form id="form-login">
+                            <div class="form-group">
+                                <label class="control-label" for="login">Login</label>
+                                <input type="text" class="form-control" id="login" placeholder="Login">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="passwd">Password</label>
+                                <input type="password" class="form-control" id="passwd" placeholder="Password">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-default" onclick="login_user()">Log in</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="registration">
+                        <form id="form-reg">
+                            <div class="form-group">
+                                <label class="control-label" for="reglogin">Login</label>
+                                <input type="text" name="reglogin" class="form-control" id="reglogin"
+                                       placeholder="Login">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="regemail">Email address</label>
+                                <input type="email" name="regemail" class="form-control" id="regemail"
+                                       placeholder="Email">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="regpasswd">Password</label>
+                                <input type="password" name="regpasswd" class="form-control" id="regpasswd"
+                                       placeholder="Password">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="confpasswd">Confirm password</label>
+                                <input type="password" name="confpasswd" class="form-control" id="confpasswd"
+                                       placeholder="Confirm password">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="dob">Birthday Date</label>
+                                <input type="text" name="regdob" class="form-control" id="dob"
+                                       placeholder="Dirthday Date">
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-default" onclick="registration()">Registration
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

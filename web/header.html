@@ -1,0 +1,79 @@
+<div class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="user-menu">
+                    <ul>
+                        <li><a href="user.jsp"><i class="fa fa-user"></i> My Account</a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
+                        <li><a href="cart.jsp"><i class="fa fa-user"></i> My Cart</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i> Checkout</a></li>
+                        <li id="login"><a href="#" data-toggle="modal" data-target="#authorization">
+                            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>Login/Register</a>
+                        </li>
+                        <li class="dropdown hidden" id="logged">
+                            <a href="#" id="username" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="user.jsp">Profile</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"
+                                                                         aria-hidden="true"></span>Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="header-right">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-branding-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo">
+                    <h1 id="logo-h1"><a href="index.jsp"><img src="img/logo1.png"></a></h1>
+                </div>
+            </div>
+            <form action="#" style="padding: 14px;">
+                <input id="search" type="text" placeholder="Search products..." style="width: 400px;">
+                <button style="border-radius: 0px; height: 42px;" type="button" class="btn btn-primary" value="Search"
+                        onclick="searchProducts()">Search
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li id="active-home"><a href="index.jsp">Home</a></li>
+                    <li id="active-phones"><a href="phones.jsp">Phones</a></li>
+                    <li id="active-tablets"><a href="tablets.jsp">Tablets</a></li>
+                    <li id="active-laptops"><a href="laptops.jsp">Laptops</a></li>
+                    <li id="active-readers"><a href="readers.jsp">eReaders</a></li>
+                    <li id="active-cart"><a href="cart.jsp">Cart &nbsp;&nbsp;<span class="cart-amunt"></span><i
+                            class="fa fa-shopping-cart"></i> <span class="product-count"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
