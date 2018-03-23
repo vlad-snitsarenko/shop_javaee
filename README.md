@@ -1,5 +1,5 @@
 A training project, a web application for working with online shop.
-Was implemented about a year ago.
+Was implemented about a year ago on java backend oriented courses.
 ##### Was Used
 - HTML/CSS/Bootstrap;
 - JQuery;
